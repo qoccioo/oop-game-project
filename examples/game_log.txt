@@ -1,0 +1,100 @@
+UI: ===== MAIN MENU:
+UI: 0 - Quit
+1 - New Game
+2 - Load Game
+> 
+UI: ===== GAME STARTED:
+UI: Enter command (w/a/s/d - move, t - toggle, z - spell, p - save, l - load, q - quit):
+Move: Player(id=-1, hp=100, dmg=10, pos=(1,0)) (0,0) → (1,0)
+Move: Enemy(id=1, hp=23, dmg=5, pos=(8,9)) (9,9) → (8,9)
+Move: Enemy(id=2, hp=23, dmg=6, pos=(6,7)) (7,7) → (6,7)
+Move: Player(id=-1, hp=100, dmg=10, pos=(1,1)) (1,0) → (1,1)
+Move: Enemy(id=1, hp=23, dmg=5, pos=(7,9)) (8,9) → (7,9)
+Move: Enemy(id=2, hp=23, dmg=6, pos=(5,7)) (6,7) → (5,7)
+Move: Player(id=-1, hp=100, dmg=10, pos=(1,2)) (1,1) → (1,2)
+Move: Enemy(id=1, hp=23, dmg=5, pos=(7,8)) (7,9) → (7,8)
+Move: Enemy(id=2, hp=23, dmg=6, pos=(4,7)) (5,7) → (4,7)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(1,3)) (1,2) → (1,3)
+Move: Enemy(id=1, hp=23, dmg=5, pos=(6,8)) (7,8) → (6,8)
+Move: Player(id=-1, hp=100, dmg=10, pos=(0,3)) (1,3) → (0,3)
+UI: 🌀 The Mad Scientist stepped on a slowing cell!
+Move: Enemy(id=1, hp=23, dmg=5, pos=(6,7)) (6,8) → (6,7)
+UI: 🔍 The Mad Scientist is slowed and misses a turn!
+Move: Enemy(id=1, hp=23, dmg=5, pos=(5,7)) (6,7) → (5,7)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(7,8)) (7,9) → (7,8)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(0,4)) (0,3) → (0,4)
+Move: Enemy(id=1, hp=23, dmg=5, pos=(5,6)) (5,7) → (5,6)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(6,8)) (7,8) → (6,8)
+Move: Player(id=-1, hp=100, dmg=10, pos=(1,4)) (0,4) → (1,4)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(6,7)) (6,8) → (6,7)
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,4)) (1,4) → (2,4)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(5,7)) (6,7) → (5,7)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,3)) (2,4) → (2,3)
+Move: Player(id=-1, hp=100, dmg=10, pos=(3,3)) (2,3) → (3,3)
+Move: Player(id=-1, hp=100, dmg=10, pos=(3,4)) (3,3) → (3,4)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(7,8)) (7,9) → (7,8)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(3,5)) (3,4) → (3,5)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(6,8)) (7,8) → (6,8)
+Move: Player(id=-1, hp=100, dmg=10, pos=(4,5)) (3,5) → (4,5)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(6,7)) (6,8) → (6,7)
+Move: Player(id=-1, hp=94, dmg=10, pos=(3,5)) (4,5) → (3,5)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,5)) (3,5) → (2,5)
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,6)) (2,5) → (2,6)
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,7)) (2,6) → (2,7)
+Move: Enemy(id=2, hp=23, dmg=6, pos=(4,8)) (4,7) → (4,8)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(4,7)) (5,7) → (4,7)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(5,7)) (6,7) → (5,7)
+Move: Enemy(id=5, hp=20, dmg=5, pos=(7,8)) (7,9) → (7,8)
+UI: 🌿 You had some rest and regained health! HP = 100
+Move: Player(id=-1, hp=100, dmg=10, pos=(2,8)) (2,7) → (2,8)
+Move: Enemy(id=2, hp=23, dmg=6, pos=(3,8)) (4,8) → (3,8)
+Move: Enemy(id=3, hp=21, dmg=4, pos=(4,8)) (4,7) → (4,8)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(4,7)) (5,7) → (4,7)
+Move: Enemy(id=5, hp=20, dmg=5, pos=(6,8)) (7,8) → (6,8)
+Damage: attacker=Player(id=-1, hp=94, dmg=10, pos=(2,8)) target=Enemy(id=2, hp=13, dmg=6, pos=(3,8)) dmg=10 HP: 23→13
+Move: Enemy(id=1, hp=23, dmg=5, pos=(5,7)) (5,6) → (5,7)
+Damage: attacker=Enemy(id=2, hp=13, dmg=6, pos=(3,8)) target=Player(id=-1, hp=88, dmg=10, pos=(2,8)) dmg=6 HP: 94→88
+UI: 🩸 The alien attacks! Mad Scientist HP = 88
+Move: Enemy(id=5, hp=20, dmg=5, pos=(6,7)) (6,8) → (6,7)
+Damage: attacker=Player(id=-1, hp=88, dmg=10, pos=(2,8)) target=Enemy(id=2, hp=3, dmg=6, pos=(3,8)) dmg=10 HP: 13→3
+Damage: attacker=Enemy(id=2, hp=3, dmg=6, pos=(3,8)) target=Player(id=-1, hp=82, dmg=10, pos=(2,8)) dmg=6 HP: 88→82
+UI: 🩸 The alien attacks! Mad Scientist HP = 82
+Damage: attacker=Player(id=-1, hp=82, dmg=10, pos=(2,8)) target=Enemy(id=2, hp=0, dmg=6, pos=(3,8)) dmg=3 HP: 3→0
+Death: Enemy(id=2, hp=0, dmg=6, pos=(3,8))
+Move: Enemy(id=3, hp=21, dmg=4, pos=(3,8)) (4,8) → (3,8)
+Move: Enemy(id=4, hp=17, dmg=3, pos=(4,8)) (4,7) → (4,8)
+Damage: attacker=Player(id=-1, hp=82, dmg=10, pos=(2,8)) target=Enemy(id=3, hp=11, dmg=4, pos=(3,8)) dmg=10 HP: 21→11
+Move: Enemy(id=1, hp=23, dmg=5, pos=(4,7)) (5,7) → (4,7)
+Damage: attacker=Enemy(id=3, hp=11, dmg=4, pos=(3,8)) target=Player(id=-1, hp=78, dmg=10, pos=(2,8)) dmg=4 HP: 82→78
+UI: 🩸 The alien attacks! Mad Scientist HP = 78
+Move: Enemy(id=5, hp=20, dmg=5, pos=(5,7)) (6,7) → (5,7)
+Damage: attacker=Player(id=-1, hp=78, dmg=10, pos=(2,8)) target=Enemy(id=3, hp=1, dmg=4, pos=(3,8)) dmg=10 HP: 11→1
+Damage: attacker=Enemy(id=3, hp=1, dmg=4, pos=(3,8)) target=Player(id=-1, hp=68, dmg=10, pos=(2,8)) dmg=4 HP: 72→68
+UI: 🩸 The alien attacks! Mad Scientist HP = 68
+Move: Enemy(id=6, hp=23, dmg=4, pos=(7,8)) (7,9) → (7,8)
+Damage: attacker=Player(id=-1, hp=68, dmg=10, pos=(2,8)) target=Enemy(id=3, hp=0, dmg=4, pos=(3,8)) dmg=1 HP: 1→0
+Death: Enemy(id=3, hp=0, dmg=4, pos=(3,8))
+Move: Enemy(id=4, hp=17, dmg=3, pos=(3,8)) (4,8) → (3,8)
+Move: Enemy(id=6, hp=23, dmg=4, pos=(6,8)) (7,8) → (6,8)
+Damage: attacker=Player(id=-1, hp=68, dmg=10, pos=(2,8)) target=Enemy(id=4, hp=7, dmg=3, pos=(3,8)) dmg=10 HP: 17→7
+Move: Enemy(id=1, hp=23, dmg=5, pos=(4,8)) (4,7) → (4,8)
+Damage: attacker=Enemy(id=4, hp=7, dmg=3, pos=(3,8)) target=Player(id=-1, hp=65, dmg=10, pos=(2,8)) dmg=3 HP: 68→65
+UI: 🩸 The alien attacks! Mad Scientist HP = 65
+Move: Enemy(id=5, hp=20, dmg=5, pos=(4,7)) (5,7) → (4,7)
+Move: Enemy(id=6, hp=23, dmg=4, pos=(6,7)) (6,8) → (6,7)
+UI: 
+=== Your Spells ===
+
+UI: Choose spell index: 
+UI: ⚡ CHOOSE TARGET ⚡
+1. Alien
+2. Enemy building or tower
+0. Cancel
+> 
+UI: 🎯 Enter target coordinates (x y):
+UI: ❌ Target out of range.
