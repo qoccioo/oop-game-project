@@ -41,36 +41,47 @@ oop-game-project/
 ├── CMakeLists.txt
 ├── Makefile
 └── README.md
+```
+---
 
-⚙️ Build Instructions
+## ⚙️Build Instructions
 Makefile is provided for convenience: 
-make
+- make
 
-▶️ Run
+---
+
+## ▶️ Run
 After building, run the executable from the build directory:
 ./GameCLI
 
-🎮 Controls
+---
+
+## 🎮 Controls
 Key bindings are configurable via the file:
 config/keymap.cfg
 
 Example configuration:
 
-move_up = w
-move_down = s
-move_left = a
-move_right = d
-use_spell = z
-toggle_mode = t
-save = p
-load = l
-quit = q
+- move_up = w
+- move_down = s
+- move_left = a
+- move_right = d
+- use_spell = z
+- toggle_mode = t
+- save = p
+- load = l
+- quit = q
 
-🖥 Platform Support
+---
+
+## 🖥 Platform Support
 
 The project is cross-platform and can be built on:
-Windows
-Linux
-macOS
+- Windows
+- Linux
+- macOS
+
+---
+
 
 Console rendering uses Unicode symbols.
