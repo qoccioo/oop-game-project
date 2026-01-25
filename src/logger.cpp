@@ -5,7 +5,6 @@
 Logger::Logger(LogOutput output, const std::string& filename)
     : output_(output)
 {
-    // Отладочный вывод режима
     switch (output_) {
         case LogOutput::None:
             std::cout << "Log mode: NONE" << std::endl;
@@ -24,7 +23,6 @@ Logger::Logger(LogOutput output, const std::string& filename)
             break;
     }
 
-    // Открываем файл только в режимах File и Both
     if (output_ == LogOutput::File || output_ == LogOutput::Both) {
         std::cout << "Trying to open file: " << filename << std::endl;
         file_.open(filename);
@@ -36,7 +34,6 @@ Logger::Logger(LogOutput output, const std::string& filename)
         }
     }
 
-    // Подписываемся на события только если логирование включено
     if (output_ != LogOutput::None) {
         Subscribe();
     }
@@ -114,4 +111,5 @@ void Logger::OnSpellUsed(const SpellUsedEvent& ev) {
 
 void Logger::OnUiMessage(const UiMessageEvent& ev) {
     Write("UI: " + ev.text);
+
 }
