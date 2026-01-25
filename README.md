@@ -32,7 +32,7 @@ The application runs in a terminal and visualizes the game field using Unicode s
 <img width="3362" height="1782" alt="uml_4" src="https://github.com/user-attachments/assets/a1ea2a2a-d6b8-4231-9ee3-04dba0e55b2e" />
 
 
-## 🏗 Project Structure
+## Project Structure
 
 ```text
 oop-game-project/
@@ -59,7 +59,7 @@ After building, run the executable from the build directory:
 
 ---
 
-## 🎮 Controls
+## Controls
 Key bindings are configurable via the file:
 config/keymap.cfg
 
@@ -77,7 +77,7 @@ Example configuration:
 
 ---
 
-## 🖥 Platform Support
+## Platform Support
 
 The project is cross-platform and can be built on:
 - Windows
@@ -88,4 +88,5 @@ The project is cross-platform and can be built on:
 
 
 Console rendering uses Unicode symbols.
+
 
