@@ -16,7 +16,7 @@ enum class LogOutput {
     None,
     Console,
     File,
-    Both   // ← новый режим
+    Both  
 };
 
 enum class RewardType {
@@ -62,4 +62,5 @@ enum class CommandType {
     UseSpell,
     Save,
     Load
+
 };
