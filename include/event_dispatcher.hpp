@@ -5,15 +5,15 @@
 #include <vector>
 #include "events.hpp"
 
-using EventCallback = std::function<void(const Event&)>; // Обертка. Чтобы хранить все обработчики в одном контейнере, так как работаем с разными типами событий
+using EventCallback = std::function<void(const Event&)>;
 
 class EventDispatcher {
 public:
-    static EventDispatcher& instance(); // Паттерн синглтон! У нас один такой объект на всю программу, делаем его глобальным. 
+    static EventDispatcher& instance();
 
     template <typename EventT>
     void subscribe(std::function<void(const EventT&)> callback) {
-        auto& vector = subscribers_[std::type_index(typeid(EventT))]; // берем событие Event, превращаем тип в ключ для словаря,
+        auto& vector = subscribers_[std::type_index(typeid(EventT))]; 
         vector.push_back(
             [cb = std::move(callback)](const Event& e) {
                 cb(static_cast<const EventT&>(e));
@@ -33,3 +33,4 @@ private:
     EventDispatcher() = default;
     std::unordered_map<std::type_index, std::vector<EventCallback>> subscribers_;
 };
+
