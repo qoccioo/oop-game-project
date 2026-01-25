@@ -11,7 +11,6 @@
 #include "player.hpp"
 #include "spell.hpp"
 #include "errors.hpp"
-
 #include "gameserializer.hpp"
 #include "input_json.hpp"
 #include "output_json.hpp"
@@ -273,3 +272,4 @@ void GameSerializer::DeserializeEntity(Game& game, const json& j)
         f.At(x,y).set(CellType::kAlly);
     }
 }
+
