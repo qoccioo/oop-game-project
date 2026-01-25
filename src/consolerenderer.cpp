@@ -5,7 +5,7 @@
 ConsoleRenderer::ConsoleRenderer(Game& game)
     : game_(&game)
 {
-    Subscribe();   // подписываемся сразу при создании
+    Subscribe();  
 }
 
 void ConsoleRenderer::DrawMessage(const std::string& msg) {
@@ -49,13 +49,12 @@ void ConsoleRenderer::Subscribe()
 {
     auto& disp = EventDispatcher::instance();
 
-    // Сообщения игры (UI)
     disp.subscribe<UiMessageEvent>([this](const UiMessageEvent& ev) {
         DrawMessage(ev.text);
     });
 
-    // Поле обновилось → нужно перерисовать
     disp.subscribe<TurnCompletedEvent>([this](const TurnCompletedEvent&) {
         DrawField();
     });
 }
+
